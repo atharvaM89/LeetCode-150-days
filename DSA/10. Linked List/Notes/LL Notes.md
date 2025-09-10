@@ -1,6 +1,6 @@
 # Notes
 
-![image.png](image.png)
+![image.png](../images/LL Notes/image.png)
 
 ![image.png](image%201.png)
 

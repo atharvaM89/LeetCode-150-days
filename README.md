@@ -1,5 +1,5 @@
 # LeetCode-150-days
-- This repository contains a structured collection of ~350 LeetCode problems, organized topic-wise for easy navigation and focused learning.
+- This repository will contains a structured collection of ~350 LeetCode problems, organized topic-wise for easy navigation and focused learning.
 - Along with each set of problems, you’ll find detailed notes and explanations to help you understand the underlying concepts and approaches.
 
 Weekly Updates:

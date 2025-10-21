@@ -90,29 +90,29 @@ OR Sort Colors
 
 **Pattern 2 - BS for Min or Max**
 
-1. Sqrt{x} (69)
-2. Find nth root of m
-3. Koko Eating Bananas (875)
-4. Minimum No of days to make m Bouquets (1482)
-5. Find a Smallest Divisor given in Threshold (1283)
-6. Capacity to Ship Packages Within D Days (1011)
-7. Kth Missing Positive Number (1539)
+9. Sqrt{x} (69)
+10. Find nth root of m
+11. Koko Eating Bananas (875)
+12. Minimum No of days to make m Bouquets (1482)
+13. Find a Smallest Divisor given in Threshold (1283)
+14. Capacity to Ship Packages Within D Days (1011)
+15. Kth Missing Positive Number (1539)
 
 Pattern 3- BS for Max of Min || Min of Max
 
-1. Aggressive Cows
-2. Allocate Minimum Pages
-3. Split Array Largest Sum (410)
-4. Painter’s Partition Problem
-5. Minimize Max Distance to Gas Station (774)
-6. Median of 2 Sorted Arrays (4)
-7. Kth Element of 2 Sorted Arrays
+16. Aggressive Cows
+17. Allocate Minimum Pages
+18. Split Array Largest Sum (410)
+19. Painter’s Partition Problem
+20. Minimize Max Distance to Gas Station (774)
+21. Median of 2 Sorted Arrays (4)
+22. Kth Element of 2 Sorted Arrays
 
 Pattern 4- BS for 2D Array
 
-1. Row With Maximum Once (2643)
-2. Search in 2D Matrix (74)
-3. Search in 2D Matrix II (240)
-4. Find Peak Element II (1901)
-5. Median in a Row Wise Sorted Matrix
-6. Search in a Row - Column Sorted Matrix
+23. Row With Maximum Once (2643)
+24. Search in 2D Matrix (74)
+25. Search in 2D Matrix II (240)
+26. Find Peak Element II (1901)
+27. Median in a Row Wise Sorted Matrix
+28. Search in a Row - Column Sorted Matrix

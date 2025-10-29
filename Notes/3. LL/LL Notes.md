@@ -2,11 +2,11 @@
 
 ![image.png](../../Images/LL%20Notes/image.png)
 
-![image.png](image%201.png)
+![image.png](../../Images/LL%20Notes/image%201.png)
 
-![image.png](image%202.png)
+![image.png](../../Images/LL%20Notes/image%202.png)
 
-![image.png](image%203.png)
+![image.png](../../Images/LL%20Notes/image%203.png)
 
 # 1. Basic Class Implementation for Node Class
 
@@ -78,7 +78,7 @@ we can add nodes in linked list in three types
 
 ## 1. Add First
 
-![image.png](image%204.png)
+![image.png](../../Images/LL%20Notes/image%204.png)
 
 Steps
 
@@ -142,11 +142,11 @@ public class LinkedList {
 
 Time Complexity -O(1)
 
-![image.png](image%205.png)
+![image.png](../../Images/LL%20Notes/image%205.png)
 
 ## 2. ADD in last
 
-![image.png](image%206.png)
+![image.png](../../Images/LL%20Notes/image%206.png)
 
 Steps
 
@@ -183,11 +183,11 @@ when LL is null New Node will become head and tail
 
 ## 3. ADD in Middle
 
-![image.png](image%207.png)
+![image.png](../../Images/LL%20Notes/image%207.png)
 
-![image.png](image%208.png)
+![image.png](../../Images/LL%20Notes/image%208.png)
 
-![image.png](image%209.png)
+![image.png](../../Images/LL%20Notes/image%209.png)
 
 Steps
 
@@ -250,7 +250,7 @@ public void AddMiddle(int data, int indx){
 
 ## 4. Print a Linked List
 
-![image.png](image%2010.png)
+![image.png](../../Images/LL%20Notes/image%2010.png)
 
 ```java
 public void print(){
@@ -272,7 +272,7 @@ public void print(){
 
 ## 5. Size of a Linked List
 
-![image.png](image%2011.png)
+![image.png](../../Images/LL%20Notes/image%2011.png)
 
 1. Where we Define
 
@@ -325,7 +325,7 @@ public void AddMiddle(int data, int indx){
 
 ## 1. Remove First
 
-![image.png](image%2012.png)
+![image.png](../../Images/LL%20Notes/image%2012.png)
 
 - For Removing any Element
 we do not need to delete any thing
@@ -453,7 +453,7 @@ fast one increase by more values (ex by 2)    -hare
     slow pointer = middle value 
     
 
-![image.png](image%2013.png)
+![image.png](../../Images/LL%20Notes/image%2013.png)
 
 - CASE 2-  Odd case
 
@@ -462,7 +462,7 @@ while(fast.next≠null)
 when [fast.next](http://fast.next) points to null 
 slow points to middle
 
-![image.png](image%2014.png)
+![image.png](../../Images/LL%20Notes/image%2014.png)
 
 ```java
 //Slow fast- to find the middle node
@@ -483,7 +483,7 @@ public Node FindMiddle(Node head){
 
 - we use Slow Fast algo
 
-![image.png](image%2015.png)
+![image.png](../../Images/LL%20Notes/image%2015.png)
 
 - when we find our slow and fast is on same node that time we say 
 our linked list contains loop
@@ -507,11 +507,11 @@ public boolean cycle(){
 
 # 7. Removing a Cycle form a LL
 
-![image.png](image%2016.png)
+![image.png](../../Images/LL%20Notes/image%2016.png)
 
-![image.png](image%2017.png)
+![image.png](../../Images/LL%20Notes/image%2017.png)
 
-![image.png](image%2018.png)
+![image.png](../../Images/LL%20Notes/image%2018.png)
 
 Algo  
 
@@ -542,7 +542,7 @@ that node node is Previous of fast (when slow and fast meets)
 
 # 8. Java Collections Frame Work
 
-![image.png](image%2019.png)
+![image.png](../../Images/LL%20Notes/image%2019.png)
 
 Basically it is a Collections in java , collections of data structure which give various inbuilt methods which prevent us to not build the things from strach 
 
@@ -581,7 +581,7 @@ import java.util.LinkedList;
 //we will find the middle in such a way that it will be the last node of the left part
 ```
 
-![image.png](image%2020.png)
+![image.png](../../Images/LL%20Notes/image%2020.png)
 
 ```java
 //2. Divide the linked list in two parts
@@ -603,7 +603,7 @@ import java.util.LinkedList;
 - To find the middle of the linked list we use slow fast concept
 - but there is one change in slow fast concept we get out mid as fist node of 2nd part
     
-    ![image.png](image%2021.png)
+    ![image.png](../../Images/LL%20Notes/image%2021.png)
     
 - But we want our mid should be the last node of 1st part
     
@@ -683,7 +683,7 @@ temp list    - we also called it as a dummy list
                     - in that dummy list we initilize this list with -1
 - we will compare both the nodes of the list and if left part node is less than right one then we will point it to next in the temp list
     
-    ![image.png](image%2022.png)
+    ![image.png](../../Images/LL%20Notes/image%2022.png)
     
 - what will be our final linked list in that
 head=mergeedLL.next
@@ -724,9 +724,9 @@ public static Node Merge(Node head1, Node head2){
 
 - In zig zag we have to point the last node after the first one and after that we have to point the 2nd node after that last 2nd and goes on
 
-![image.png](image%2023.png)
+![image.png](../../Images/LL%20Notes/image%2023.png)
 
-![image.png](image%2024.png)
+![image.png](../../Images/LL%20Notes/image%2024.png)
 
 ```java
 	//1. find mid Node (last node of 1st part)
@@ -758,7 +758,7 @@ Node nextright              -points to next node of the right part        - only
 
 ```
 
-![image.png](image%2025.png)
+![image.png](../../Images/LL%20Notes/image%2025.png)
 
 # 11. Doubly Linked List
 
@@ -767,9 +767,9 @@ Data of the Node
 Pointer to the Next
 Pointer to the previous
 
-![image.png](image%2026.png)
+![image.png](../../Images/LL%20Notes/image%2026.png)
 
-![image.png](image%2027.png)
+![image.png](../../Images/LL%20Notes/image%2027.png)
 
 ```java
  public class Node{
@@ -872,7 +872,7 @@ public void reverseList(){
 
 - It is Formed when the last node of the list is Connected to first node Forming a cycle
 
-![image.png](image%2028.png)
+![image.png](../../Images/LL%20Notes/image%2028.png)
 
 - It can be single circular linked list or Doubly circular linked list
 - There will two types of circular linked list

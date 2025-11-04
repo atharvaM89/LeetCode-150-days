@@ -290,7 +290,7 @@ Output: [4,1,9]
 Explanation:You are given the second node with value 5, the linked list should become 4 -> 1 -> 9 after calling your function.
 ```
 
-![image.png](.././Images/LL%20Codes/image.png)
+![image.png](../../Images/LL%20Codes/image.png)
 
 ```java
 /**
@@ -670,7 +670,7 @@ Output: tail connects to node index 1
 Explanation: There is a cycle in the linked list, where tail connects to the second node.
 ```
 
-![image.png](image%201.png)
+![image.png](../../Images/LL%20Codes/image%201.png)
 
 Algo  
 
@@ -1222,7 +1222,7 @@ Given the heads of two singly linked-lists `headA` and `headB`, return *the 
 
 For example, the following two linked lists begin to intersect at node `c1`:
 
-![image.png](image%202.png)
+![image.png](../../Images/LL%20Codesimage%202.png)
 
 ```java
 /**

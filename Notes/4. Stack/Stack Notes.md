@@ -21,7 +21,7 @@ EX- Stack of Books
     4. is Empty - It Check weather the stack is empty or not
     - All the Three operations is done in O(1) time Complexity
 
-![image.png](image.png)
+![image.png](../../Images/Stack%20Notes/image.png)
 
 In all these three operation we are dealing with top i.e the element which is at the top of the stack 
 

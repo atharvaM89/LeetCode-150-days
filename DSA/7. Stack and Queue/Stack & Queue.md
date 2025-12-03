@@ -171,9 +171,9 @@ but in this we need to push element at the bottom
 
 - Step 1- using recursion we need to make stack empty and end push our element and insert the element which is already present in the stack in the same order
 
-![image.png](image%201.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%201.png)
 
-![image.png](image%202.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%202.png)
 
 ```java
 public class pushBottom {
@@ -190,7 +190,7 @@ public class pushBottom {
 
 ### -Reverse a String Using Stack
 
-![image.png](image%203.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%203.png)
 
 ```java
     public static String reverseString(String str){
@@ -220,13 +220,13 @@ public class pushBottom {
 so we use Recursion So using recursion what we do is 
 pop element one by one until the Stack get empty when it get empty we start putting element in the reverse order, so we can able to reverse our stack
 
-![image.png](image%204.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%204.png)
 
-![image.png](image%205.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%205.png)
 
 - When the stack get empty we start pushing element at the bottom of the stack
 
-![image.png](image%206.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%206.png)
 
 ```java
 
@@ -701,7 +701,7 @@ public class QueueUsingArray {
 the TC of Remove Operation is O(n) and we want to Decrease to O(1)
 - In this type of Queue while Deleting we just Simply Move our Front Pointer to next instead of moving complete array to front
 
-![image.png](image%207.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%207.png)
 
 - If want to Add to some Elements in the Queue at that time we check the array is full or not 
 by checking the rear position
@@ -711,9 +711,9 @@ by checking the rear position
 rear=(rear+1)% size;
 ```
 
-![image.png](image%208.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%208.png)
 
-![image.png](image%209.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%209.png)
 
 - In this case, if 8 will remove then front should be at last, so front will be
 
@@ -815,7 +815,7 @@ and make new node=tail
 and when no other node pointing to that node 
 then that node will be automatically deleted by java’s garbage collector
 
-![image.png](image%2010.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2010.png)
 
 ```java
 public class QueueUsingLinkedList{
@@ -890,7 +890,7 @@ public class QueueUsingLinkedList{
 
 - It is an Double Ended Queue, In which insertion and deletion is happen form both the end
 
-![image.png](image%2011.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2011.png)
 
 ### Operation in Queue
 
@@ -922,7 +922,7 @@ public class Dequeimplementation{
 }
 ```
 
-![image.png](image%2012.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2012.png)
 
 ### -Implementation of Queue Using Deque
 
@@ -1493,12 +1493,12 @@ Output: [1, 1, 2, 4]
 Explanation: Traversing the given input span 100 is greater than equal to 100 and there are no more days behind it so the span is 1, 80 is greater than equal to 80 and smaller than 100 so the span is 1, 90 is greater than equal to 90 and 80 so the span is 2, 120 is greater than 90, 80 and 100 so the span is 4. So the output will be [1, 1, 2, 4].
 ```
 
-![Screenshot 2025-11-27 130544.png](Screenshot_2025-11-27_130544.png)
+![Screenshot 2025-11-27 130544.png](../../Images/Stack%20and%20Queue%20Codes/Screenshot_2025-11-27_130544.png)
 
 - In this Type of Problem the Stock price of the company is Given in the form of Graph/ Candle or anything 
 it define the the price of stock in that day
 
-![image.png](image%2013.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2013.png)
 
 - Stock is Given in the problem 
 Span - we need to calculate it by our own
@@ -1506,7 +1506,7 @@ Span - we need to calculate it by our own
 for ex- today some stock value is 100 
 so before today how many consecutive days the` stock price is less than or equal to this price
 
-![image.png](image%2014.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2014.png)
 
 - for span Consider for 70 and 80
 is 70≤60- no 
@@ -1516,11 +1516,11 @@ for that we will store previous high
 and our overall problem will take O(N^2) 
 for that we use stack
 
-![image.png](image%2015.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2015.png)
 
-![image.png](image%2016.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2016.png)
 
-![image.png](image%2017.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2017.png)
 
 ```java
 class Solution {
@@ -1600,7 +1600,7 @@ Explanation: The next greater element for each value of nums1 is as follows:
 - 2 is underlined in nums2 = [1,3,4,2]. There is no next greater element, so the answer is -1.
 ```
 
-![image.png](image%2018.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2018.png)
 
 - Next Greater Element means- 1st no whose value greater than X or it is in right side of X
 - How it Works
@@ -1626,7 +1626,7 @@ for(int i=0; i<arr.length; i++){
 
 ### Using Stack Approach
 
-![image.png](image%2019.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2019.png)
 
 - We will make a new Array- next Greater of size array in which we will store our final answer
 - In this next Greater Array at 0 index will store the next greater element of 1st element from arr
@@ -1643,7 +1643,7 @@ while(s.isEmpty() && stack[top]<=arr[i]){
 
 ### Code Dry Run
 
-![image.png](image%2020.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2020.png)
 
 ```java
 class Solution {
@@ -1810,7 +1810,7 @@ class Solution {
 
 ## 9. Duplicate Parenthesis
 
-![image.png](image%2021.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2021.png)
 
 ```java
 import java.util.*;
@@ -1865,7 +1865,7 @@ The largest rectangle is shown in the red area, which has an area = 10 units.
 
 - The bar like structure is called as Histogram, and the width of each bar is 1
 
-![image.png](image%2022.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2022.png)
 
 - Consider for this much area 
 how we find the boundary
@@ -1878,9 +1878,9 @@ i.e min(5,6)=5 and there is 2 heights so width will be 2
     - suppose while iterating in a loop we are on 5
     then we need to find New smallest left and new smallest right
 
-![image.png](image%2023.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2023.png)
 
-![image.png](image%2024.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2024.png)
 
 - we write a 2 function similar to next Greater 
 but the thing is here we need to write a function of next smaller in left and right
@@ -1894,9 +1894,9 @@ there already exist -1 and if we also add -1
 then -1-1= -2 
 which makes our answer wrong
 
-![image.png](image%2025.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2025.png)
 
-![image.png](image%2026.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2026.png)
 
 ```java
 class Solution {
@@ -2104,7 +2104,7 @@ Going one level up from the root directory is not possible.
 
 `"..."` is a valid name for a directory in this problem.
 
-![image.png](image%2027.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2027.png)
 
 ```java
 class Solution {
@@ -2253,7 +2253,7 @@ Input: height = [4,2,0,3,2,5]
 Output: 9
 ```
 
-![image.png](image%2028.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2028.png)
 
 ### Method -1
 
@@ -2371,9 +2371,9 @@ class Solution {
 
 Using Next Smaller Element
 
-![image.png](image%2029.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2029.png)
 
-![image.png](image%2030.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image%2030.png)
 
 ```java
 class Solution {

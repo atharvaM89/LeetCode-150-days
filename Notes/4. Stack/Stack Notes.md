@@ -165,7 +165,7 @@ public class App {
 - Stack is LIFO and Queue if FIFO
 - using Queue we need to Implement stack
 
-![image.png](image%201.png)
+![image.png](../../Images/Stack%20Notes/image%201.png)
 
 ```java
 
@@ -371,12 +371,12 @@ public class StackQueueUsingDeque {
 
 # C. Stock Span Problem
 
-![Screenshot 2025-11-27 130544.png](Screenshot_2025-11-27_130544.png)
+![Screenshot 2025-11-27 130544.png](../../Images/Stack%20Notes/Screenshot_2025-11-27_130544.png)
 
 - In this Type of Problem the Stock price of the company is Given in the form of Graph/ Candle or anything 
 it define the the price of stock in that day
 
-![image.png](image%202.png)
+![image.png](../../Images/Stack%20Notes/image%202.png)
 
 - Stock is Given in the problem 
 Span - we need to calculate it by our own
@@ -384,7 +384,7 @@ Span - we need to calculate it by our own
 for ex- today some stock value is 100 
 so before today how many consecutive days the` stock price is less than or equal to this price
 
-![image.png](image%203.png)
+![image.png](../../Images/Stack%20Notes/image%203.png)
 
 - for span Consider for 70 and 80
 is 70≤60- no 
@@ -394,11 +394,11 @@ for that we will store previous high
 and our overall problem will take O(N^2) 
 for that we use stack
 
-![image.png](image%204.png)
+![image.png](../../Images/Stack%20Notes/image%204.png)
 
-![image.png](image%205.png)
+![image.png](../../Images/Stack%20Notes/image%205.png)
 
-![image.png](image%206.png)
+![image.png](../../Images/Stack%20Notes/image%206.png)
 
 ```java
  /*int Stocks[]={100, 80, 60, 70, 60, 85, 100};
@@ -430,7 +430,7 @@ for that we use stack
 
 # D. Next Greater Element
 
-![image.png](image%207.png)
+![image.png](../../Images/Stack%20Notes/image%207.png)
 
 - Next Greater Element means- 1st no whose value greater than X or it is in right side of X
 - How it Works
@@ -456,7 +456,7 @@ for(int i=0; i<arr.length; i++){
 
 ### Using Stack Approach
 
-![image.png](image%208.png)
+![image.png](../../Images/Stack%20Notes/image%208.png)
 
 - We will make a new Array- next Greater of size array in which we will store our final answer
 - In this next Greater Array at 0 index will store the next greater element of 1st element from arr
@@ -473,7 +473,7 @@ while(s.isEmpty() && stack[top]<=arr[i]){
 
 ### Code Dry Run
 
-![image.png](image%209.png)
+![image.png](../../Images/Stack%20Notes/image%209.png)
 
 ```java
 public static int[] nextgre(int arr[], Stack<Integer>s, int nextGreater[]){
@@ -554,7 +554,7 @@ a+b*(c^ d-e)
     - Don’t add Opening and Closing Brackets to the answer
     - If Iteration is done then pop all the elements from the stack and add it to the final answer one by one
 
-![image.png](image%2010.png)
+![image.png](../../Images/Stack%20Notes/image%2010.png)
 
 ```jsx
 abcd^e-*+
@@ -646,7 +646,7 @@ public class InfixtoPostfix {
 - Reverse the Answer
     - But there is Slightly Change in the condition when revere the original string just make the Opening bracket to Closing bracket and closing bracket to opening bracket
 
-![image.png](image%2011.png)
+![image.png](../../Images/Stack%20Notes/image%2011.png)
 
 ```jsx
 (A+B)*C-D+F
@@ -772,7 +772,7 @@ public class InfixtoPrefix {
 - At the end there is only one element in the stack and that element is our answer
 - TC= O(n )+ O(n)
 
-![image.png](image%2012.png)
+![image.png](../../Images/Stack%20Notes/image%2012.png)
 
 ```jsx
 	AB - DE + F */
@@ -824,7 +824,7 @@ public class PostfixToInfix {
     but the difference is  top2 + operator + top 1
 - TC= O(n1)+O(n2)
 
-![image.png](image%2013.png)
+![image.png](../../Images/Stack%20Notes/image%2013.png)
 
 ```jsx
 * + PQ - MN
@@ -872,7 +872,7 @@ public class PrefixToInfix {
 - when a operator appear pop 2 top element from stack and add operator in front of the the 2 top and add the combine whole string in the stack\
 - Operator+ t2+ t1
 
-![image.png](image%2014.png)
+![image.png](../../Images/Stack%20Notes/image%2014.png)
 
 ```jsx
 AB - DE + F * /
@@ -921,7 +921,7 @@ operator +t2+t1
 - We need to do 
 t1 + t2+ operator
 
-![image.png](image%2015.png)
+![image.png](../../Images/Stack%20Notes/image%2015.png)
 
 ```jsx
 /-AB*+DEF

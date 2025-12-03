@@ -167,7 +167,7 @@ public class StackQueueUsingDeque {
 - When ever we push element in the stack we push at top 
 but in this we need to push element at the bottom
 
-![image.png](image.png)
+![image.png](../../Images/Stack%20and%20Queue%20Codes/image.png)
 
 - Step 1- using recursion we need to make stack empty and end push our element and insert the element which is already present in the stack in the same order
 

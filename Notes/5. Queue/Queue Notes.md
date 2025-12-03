@@ -12,7 +12,7 @@ Output 1,2,3
     - In stack when we need to pop element which is in last
     - When we want to push element at that time element is inserted at the end of the stack
     
-    ![image.png](image.png)
+    ![image.png](Images/Queue%20Notes/image.png)
     
     - Queue is FIFO - First In First Out
     - In Queue When we want to pop the element we do that from the front

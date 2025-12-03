@@ -18,7 +18,7 @@ Output 1,2,3
     - In Queue When we want to pop the element we do that from the front
     - and when we push element it goes in rear same like Stack
 
-![image.png](image%201.png)
+![image.png](../../Images/Queue%20Notes/image%201.png)
 
 # Operations
 
@@ -30,14 +30,14 @@ rear - It is not a fixed pointer, changed whenever new element is added in the Q
 
 - When ever we add some in Element in the Queue that Element goes at the end of the Queue and rear will point to the new element in the Queue
 
-![image.png](image%202.png)
+![image.png](../../Images/Queue%20Notes/image%202.png)
 
 ### Remove O(1)- Dequeue
 
 - Deque- it is an Double Ended Queue
 - Dequeue - Removing an Element
 
-![image.png](image%203.png)
+![image.png](../../Images/Queue%20Notes/image%203.png)
 
 ### Peek O(1)- Front
 
@@ -119,7 +119,7 @@ public class QueueUsingArray {
 the TC of Remove Operation is O(n) and we want to Decrease to O(1)
 - In this type of Queue while Deleting we just Simply Move our Front Pointer to next instead of moving complete array to front
 
-![image.png](image%204.png)
+![image.png](../../Images/Queue%20Notes/image%204.png)
 
 - If want to Add to some Elements in the Queue at that time we check the array is full or not 
 by checking the rear position
@@ -129,9 +129,9 @@ by checking the rear position
 rear=(rear+1)% size;
 ```
 
-![image.png](image%205.png)
+![image.png](../../Images/Queue%20Notes/image%205.png)
 
-![image.png](image%206.png)
+![image.png](../../Images/Queue%20Notes/image%206.png)
 
 - In this case, if 8 will remove then front should be at last, so front will be
 
@@ -233,7 +233,7 @@ and make new node=tail
 and when no other node pointing to that node 
 then that node will be automatically deleted by java’s garbage collector
 
-![image.png](image%207.png)
+![image.png](../../Images/Queue%20Notes/image%207.png)
 
 ```java
 public class QueueUsingLinkedList{
@@ -352,7 +352,7 @@ using that we want to make a Queue (FIFO)
     - transfer 1 and 2 in s1 
     now it will become the final output
     
-    ![image.png](image%208.png)
+    ![image.png](../../Images/Queue%20Notes/image%208.png)
     
 
 ```java
@@ -571,7 +571,7 @@ public class StackQueueUsingDeque {
 
 - It is an Double Ended Queue, In which insertion and deletion is happen form both the end
 
-![image.png](image%209.png)
+![image.png](../../Images/Queue%20Notes/image%209.png)
 
 ## Operation in Queue
 
@@ -603,4 +603,4 @@ public class Dequeimplementation{
 }
 ```
 
-![image.png](image%2010.png)
+![image.png](../../Images/Queue%20Notes/image%2010.png)
